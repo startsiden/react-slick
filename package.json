@@ -1,7 +1,7 @@
 {
-  "name": "react-slick",
+  "name": "react-slick-slider-mod",
   "version": "0.14.5",
-  "description": " React port of slick carousel",
+  "description": "React port of slick carousel - with some fixes",
   "main": "./lib",
   "scripts": {
     "start": "gulp server",
