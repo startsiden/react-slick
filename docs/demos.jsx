@@ -31,29 +31,29 @@ export default class App extends React.Component {
   render() {
     return (
       <div className='content'>
-        <SimpleSlider />
+        {/*<SimpleSlider />*/}
         <MultipleItems />
-        <Responsive />
-        <UnevenSetsInfinite />
-        <UnevenSetsFinite />
-        <CenterMode />
-        <FocusOnSelect />
-        <AutoPlay />
-        <PauseOnHover />
-        <Rtl />
-        <VariableWidth />
-        <AdaptiveHeight />
-        <LazyLoad />
-        <Fade />
-        <SlideChangeHooks />
-        <SlickGoTo />
-        <CustomPaging />
-        <CustomArrows />
-        <PreviousNextMethods />
-        <DynamicSlides />
-        <VerticalMode />
-        <SwipeToSlide />
-        <VerticalSwipeToSlide />
+        {/*<Responsive />*/}
+        {/*<UnevenSetsInfinite />*/}
+        {/*<UnevenSetsFinite />*/}
+        {/*<CenterMode />*/}
+        {/*<FocusOnSelect />*/}
+        {/*<AutoPlay />*/}
+        {/*<PauseOnHover />*/}
+        {/*<Rtl />*/}
+        {/*<VariableWidth />*/}
+        {/*<AdaptiveHeight />*/}
+        {/*<LazyLoad />*/}
+        {/*<Fade />*/}
+        {/*<SlideChangeHooks />*/}
+        {/*<SlickGoTo />*/}
+        {/*<CustomPaging />*/}
+        {/*<CustomArrows />*/}
+        {/*<PreviousNextMethods />*/}
+        {/*<DynamicSlides />*/}
+        {/*<VerticalMode />*/}
+        {/*<SwipeToSlide />*/}
+        {/*<VerticalSwipeToSlide />*/}
       </div>
     );
   }

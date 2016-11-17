@@ -4,11 +4,11 @@ import Slider from '../src/slider'
 export default class MultipleItems extends Component {
   render() {
     const settings = {
-      dots: true,
-      infinite: true,
+      infinite: false,
       speed: 500,
-      slidesToShow: 3,
-      slidesToScroll: 3
+      slidesToShow: 6,
+      slidesToScroll: 1,
+      initialSlide: 10
     };
     return (
       <div>
@@ -23,6 +23,9 @@ export default class MultipleItems extends Component {
           <div><h3>7</h3></div>
           <div><h3>8</h3></div>
           <div><h3>9</h3></div>
+          <div><h3>10</h3></div>
+          <div><h3>11</h3></div>
+          <div><h3>12</h3></div>
         </Slider>
       </div>
     );
