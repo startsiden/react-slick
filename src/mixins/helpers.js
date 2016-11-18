@@ -24,7 +24,13 @@ var helpers = {
     const slideHeight = this.getHeight(slickList.querySelector('[data-index="0"]'));
     const listHeight = slideHeight * props.slidesToShow;
 
-      var currentSlide = !props.centerMode && props.initialSlide > 0 ? Math.floor(props.initialSlide / props.slidesToShow) * props.slidesToShow : props.initialSlide;
+    let currentSlide = props.initialSlide;
+
+    if ( !props.centerMode && (props.initialSlide > 0 && props.initialSlide >= props.slidesToShow )) {
+       currentSlide = props.initialSlide - props.slidesToShow;
+    } else {
+      currentSlide = props.initialSlide - 1;
+    }
 
     this.setState({
       slideCount,

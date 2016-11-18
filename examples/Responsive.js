@@ -4,32 +4,27 @@ import Slider from '../src/slider'
 export default class Responsive extends Component {
   render() {
     var settings = {
-      dots: true,
       infinite: false,
-      speed: 500,
-      slidesToShow: 4,
-      slidesToScroll: 4,
-      initialSlide: 0,
+      slidesToShow: 6,
+      slidesToScroll: 1,
+      initialSlide: 4,
       responsive: [{
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          infinite: true,
-          dots: true
+          slidesToShow: 6,
+          slidesToScroll: 1,
         }
       }, {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2
+          slidesToShow: 3,
+          slidesToScroll: 1,
         }
       }, {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
+          slidesToScroll: 1,
         }
       }]
     };
@@ -45,6 +40,15 @@ export default class Responsive extends Component {
           <div><h3>6</h3></div>
           <div><h3>7</h3></div>
           <div><h3>8</h3></div>
+          <div><h3>9</h3></div>
+          <div><h3>10</h3></div>
+          <div><h3>11</h3></div>
+          <div><h3>12</h3></div>
+          <div><h3>13</h3></div>
+          <div><h3>14</h3></div>
+          <div><h3>15</h3></div>
+          <div><h3>16</h3></div>
+          <div><h3>17</h3></div>
         </Slider>
       </div>
     );

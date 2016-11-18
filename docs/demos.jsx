@@ -33,7 +33,7 @@ export default class App extends React.Component {
       <div className='content'>
         {/*<SimpleSlider />*/}
         <MultipleItems />
-        {/*<Responsive />*/}
+        <Responsive />
         {/*<UnevenSetsInfinite />*/}
         {/*<UnevenSetsFinite />*/}
         {/*<CenterMode />*/}

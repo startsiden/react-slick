@@ -8,7 +8,7 @@ export default class MultipleItems extends Component {
       speed: 500,
       slidesToShow: 6,
       slidesToScroll: 1,
-      initialSlide: 10
+      initialSlide: 5
     };
     return (
       <div>
@@ -26,6 +26,11 @@ export default class MultipleItems extends Component {
           <div><h3>10</h3></div>
           <div><h3>11</h3></div>
           <div><h3>12</h3></div>
+          <div><h3>13</h3></div>
+          <div><h3>14</h3></div>
+          <div><h3>15</h3></div>
+          <div><h3>16</h3></div>
+          <div><h3>17</h3></div>
         </Slider>
       </div>
     );
