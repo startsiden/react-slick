@@ -7,7 +7,7 @@ export default class Responsive extends Component {
       infinite: false,
       slidesToShow: 6,
       slidesToScroll: 1,
-      initialSlide: 4,
+      initialSlide: 17,
       responsive: [{
         breakpoint: 1024,
         settings: {
