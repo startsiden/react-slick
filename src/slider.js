@@ -56,6 +56,14 @@ var Slider = React.createClass({
     this.innerSlider.slickGoTo(slide)
   },
 
+  update: function () {
+    this.innerSlider.update(this.innerSlider.props);
+  },
+
+  initialize: function () {
+    this.innerSlider.initialize(this.innerSlider.props);
+  },
+
   render: function () {
     var settings;
     var newProps;
@@ -83,9 +91,12 @@ var Slider = React.createClass({
       );
     } else {
       return (
-        <InnerSlider ref={this.innerSliderRefHandler} {...settings}>
-          {children}
-        </InnerSlider>
+        <div>
+            <InnerSlider ref={this.innerSliderRefHandler} {...settings}>
+              {children}
+            </InnerSlider>
+            <button onClick={this.update}>next</button>
+        </div>
       );
     }
   }
