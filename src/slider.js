@@ -56,6 +56,14 @@ var Slider = React.createClass({
     this.innerSlider.slickGoTo(slide)
   },
 
+  update: function () {
+    this.innerSlider.update(this.innerSlider.props);
+  },
+
+  initialize: function () {
+    this.innerSlider.initialize(this.innerSlider.props);
+  },
+
   render: function () {
     var settings;
     var newProps;
