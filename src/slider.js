@@ -95,7 +95,6 @@ var Slider = React.createClass({
             <InnerSlider ref={this.innerSliderRefHandler} {...settings}>
               {children}
             </InnerSlider>
-            <button onClick={this.update}>next</button>
         </div>
       );
     }
