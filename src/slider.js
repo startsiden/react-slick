@@ -91,11 +91,9 @@ var Slider = React.createClass({
       );
     } else {
       return (
-        <div>
-            <InnerSlider ref={this.innerSliderRefHandler} {...settings}>
-              {children}
-            </InnerSlider>
-        </div>
+        <InnerSlider ref={this.innerSliderRefHandler} {...settings}>
+          {children}
+        </InnerSlider>
       );
     }
   }
